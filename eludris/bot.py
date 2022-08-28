@@ -3,7 +3,7 @@ import asyncio
 from typing import List, Optional, cast
 import aiohttp
 
-from .types import JWTConfig, Message, MessageListener
+from .objects import JWTConfig, Message, MessageListener
 
 
 def jwt_support(message: Message, config: JWTConfig):

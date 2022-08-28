@@ -1,4 +1,4 @@
 __all__ = ("Client", "Message", "JWTConfig")
 
 from .bot import Client
-from .types import JWTConfig, Message
+from .objects import JWTConfig, Message
