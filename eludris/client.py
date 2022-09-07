@@ -52,7 +52,7 @@ class Client:
 
     async def send(self, message: str) -> None:
         await self.session.post(
-            "https://eludris.tooty.xyz", json={"author": self.name, "content": message}
+            "https://eludris.tooty.xyz/messages/", json={"author": self.name, "content": message}
         )
 
     async def wait_for_message(self, author: str) -> Message:
