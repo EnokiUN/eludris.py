@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "eludris.py"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["teaishealthy <teaishealthy@protonmail.com>"]
 license = "MIT"
